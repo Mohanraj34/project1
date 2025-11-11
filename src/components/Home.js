@@ -1,4 +1,9 @@
 import React from "react";
+import { MdEmail } from "react-icons/md";
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -26,17 +31,27 @@ export default function Home() {
           </div>
 
           <ul className="social-left" aria-hidden>
-            <li>●</li>
-            <li>●</li>
-            <li>●</li>
-            <li>●</li>
-            <li>●</li>
+            <li>
+              <FaLinkedinIn />
+            </li>
+            <li>
+              <FaGithub />
+            </li>
+            <li>
+              <FaInstagram />
+            </li>
+            <li>
+              <FaPhoneAlt />
+            </li>
+            <li>
+              <MdEmail />
+            </li>
           </ul>
         </div>
 
         <div className="home-right">
           <div className="portrait-blob" aria-hidden>
-            <img alt="portrait" src="/portrait-placeholder.jpg" />
+            <img alt="portrait" src="\images\Passport KMR.png" />
           </div>
         </div>
       </div>
