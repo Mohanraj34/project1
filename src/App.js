@@ -2,6 +2,10 @@ import React, { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Certifications from "./components/Certifications";
+import Contacts from "./components/Contacts";
 
 export default function App() {
   const [theme, setTheme] = useState(() => {
@@ -25,6 +29,10 @@ export default function App() {
       <main>
         <Home />
         <About />
+        <Skills />
+        <Projects />
+        <Certifications />
+        <Contacts />
       </main>
     </div>
   );
